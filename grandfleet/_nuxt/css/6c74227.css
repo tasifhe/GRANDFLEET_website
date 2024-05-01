@@ -278,7 +278,7 @@ h2 {
   .subscribe_form input {
     padding: 10px 15px;
   }
-  .subscribe_form .m7-btn {
+  .subscribe_form .grandfleet-btn {
     margin-top: 10px;
   }
 }
@@ -329,16 +329,16 @@ h2 {
   will-change: transform;
   transform: translateX(-50%) translateY(0);
 }
-#header .m7-logo {
+#header .grandfleet-logo {
   will-change: auto;
 }
 #header .logo,
-#header .m7-logo {
+#header .grandfleet-logo {
   height: 0;
   transition: all 0.4s ease-in-out 0s !important;
 }
-#header.sticky .m7-logo,
-#header.sticky .m7-logo .logo {
+#header.sticky .grandfleet-logo,
+#header.sticky .grandfleet-logo .logo {
   height: 5rem !important;
 }
 #header.header-hidden {
@@ -358,7 +358,7 @@ h2 {
   width: 100%;
   z-index: -1000000;
 }
-#m7-intro-banner {
+#grandfleet-intro-banner {
   height: 100vh;
   width: 100%;
   max-width: 100%;
@@ -366,7 +366,7 @@ h2 {
   position: relative;
   overflow: hidden;
 }
-#m7-intro-banner .bg-img {
+#grandfleet-intro-banner .bg-img {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -379,7 +379,7 @@ h2 {
   -o-object-position: center center;
   object-position: center center;
 }
-#m7-intro-banner .banner-logo-container {
+#grandfleet-intro-banner .banner-logo-container {
   width: 100% !important;
   height: 100vh;
   padding: 4px;
@@ -389,15 +389,15 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-#m7-intro-banner .banner-logo-container a img {
+#grandfleet-intro-banner .banner-logo-container a img {
   width: 190px;
 }
 @media only screen and (max-width: 640px) {
-  .m7-btn {
+  .grandlfeet-btn {
     padding: 12px 20px !important;
   }
 }
-.m7-btn {
+.grandfleet-btn {
   position: relative;
   display: inline-block;
   letter-spacing: 1px;
@@ -411,18 +411,18 @@ h2 {
   transition: all 0.2s ease-in-out;
   color: #fff;
 }
-.m7-btn span {
+.grandfleet-btn span {
   position: relative;
   font-weight: 700;
   z-index: 2;
 }
-.m7-btn:after,
-.m7-btn span {
+.grandfleet-btn:after,
+.grandfleet-btn span {
   top: -8px;
   left: -8px;
   transition: all 0.2s ease-in-out;
 }
-.m7-btn:after {
+.grandfleet-btn:after {
   content: "";
   width: 100%;
   z-index: 1;
@@ -431,7 +431,7 @@ h2 {
   height: 100%;
   border-radius: 2px;
 }
-.m7-btn:hover {
+.grandfleet-btn:hover {
   -webkit-animation: h 1s forwards;
   animation: h 1s forwards;
   color: #fff;
@@ -446,8 +446,8 @@ h2 {
     overflow: hidden;
   }
 }
-.m7-btn:hover:after,
-.m7-btn:hover span {
+.grandfleet-btn:hover:after,
+.grandfleet-btn:hover span {
   top: 0;
   left: 0;
 }
@@ -492,7 +492,7 @@ h2 {
   flex-wrap: wrap;
   margin: auto;
 }
-.m7-logo-footer {
+.grandfleet-logo-footer {
   width: 140px;
 }
 .footerContent {
@@ -713,7 +713,7 @@ h2 {
   -o-object-position: center center;
   object-position: center center;
 }
-.m7-flex-content {
+.grandfleet-flex-content {
   display: flex;
   justify-content: flex-start;
   align-items: start;
@@ -722,7 +722,7 @@ h2 {
   column-gap: 50px;
 }
 @media only screen and (max-width: 768px) {
-  .m7-flex-content {
+  .grandfleet-flex-content {
     grid-column-gap: 0;
     -moz-column-gap: 0;
     column-gap: 0;
@@ -1196,17 +1196,17 @@ h2 {
   .navItemDetailsContainer {
     display: none !important;
   }
-  .m7-logo {
+  .grandfleet-logo {
     width: 80px;
   }
   .content-wrapper {
     padding: 0 4%;
   }
-  .section-m7 {
+  .section-grandfleet {
     margin: auto;
     max-width: 94% !important;
   }
-  .section-m7 .section-body {
+  .section-grandfleet .section-body {
     max-width: 100% !important;
   }
   .vertical-banner {
@@ -1267,7 +1267,7 @@ h2 {
     float: none !important;
     transform: translateY(0) !important;
   }
-  .m7-logo {
+  .grandfleet-logo {
     width: 60px;
   }
   body,
@@ -1281,7 +1281,7 @@ h2 {
   }
 }
 @media only screen and (max-width: 480px) {
-  .m7-logo {
+  .grandfleet-logo {
     width: 50px;
   }
 }
@@ -2107,14 +2107,14 @@ h2 {
 .text-right {
   text-align: right;
 }
-.section-m7 {
+.section-grandfleet {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   min-height: 50vh;
 }
-.section-m7 .section-body {
+.section-grandfleet .section-body {
   max-width: 80%;
   margin: auto;
 }
